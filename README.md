@@ -104,11 +104,3 @@ Next occurrence at: 2026-06-01T09:00:00+02:00[Europe/Paris]
 [PUBLISH] Event{id=..., type=BIRTHDAY, title='Alice Birthday', recurrence=YEARLY, active=true} at 2026-06-01T09:00:00+02:00[Europe/Paris]
 Triggered events: 1
 ```
-
-License & contribution
-- Add a `LICENSE` file suitable for your project (MIT recommended for small tools).
-- Fork, implement features on branches, add tests, open PRs.
-
-If you want, I can now:
-- Implement the `KafkaEventPublisher` adapter and wiring behind an environment flag, including required Maven deps and a basic integration test using Testcontainers. (Say "implement Kafka publisher" to proceed.)
-
